@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.11.8 on win32)" generated="2024-02-22T18:52:19.335113" rpa="false" schemaversion="5">
+<suite id="s1" name="Treinamento Robot" source="C:\Users\maria.guimaraes_sank\Documents\treinamento_robot\treinamento_robot">
+<suite id="s1-s1" name="Ex03" source="C:\Users\maria.guimaraes_sank\Documents\treinamento_robot\treinamento_robot\Ex03.robot">
+<test id="s1-s1-t1" name="Imprimi paises" line="24">
+<kw name="Lista paises">
+<for flavor="IN">
+<iter>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${LISTAPAISES}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-02-22T18:52:19.382764" elapsed="0.000900"/>
+</kw>
+<var name="${LISTAPAISES}">Brasil</var>
+<status status="PASS" start="2024-02-22T18:52:19.381665" elapsed="0.001999"/>
+</iter>
+<iter>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${LISTAPAISES}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-02-22T18:52:19.384874" elapsed="0.001667"/>
+</kw>
+<var name="${LISTAPAISES}">França</var>
+<status status="PASS" start="2024-02-22T18:52:19.383664" elapsed="0.002877"/>
+</iter>
+<iter>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${LISTAPAISES}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-02-22T18:52:19.390916" elapsed="0.000000"/>
+</kw>
+<var name="${LISTAPAISES}">Argentina</var>
+<status status="PASS" start="2024-02-22T18:52:19.386541" elapsed="0.004375"/>
+</iter>
+<var>${LISTAPAISES}</var>
+<value>@{paises}</value>
+<status status="PASS" start="2024-02-22T18:52:19.381665" elapsed="0.009251"/>
+</for>
+<status status="PASS" start="2024-02-22T18:52:19.379668" elapsed="0.011248"/>
+</kw>
+<status status="PASS" start="2024-02-22T18:52:19.376637" elapsed="0.014279"/>
+</test>
+<status status="PASS" start="2024-02-22T18:52:19.366893" elapsed="0.027813"/>
+</suite>
+<status status="PASS" start="2024-02-22T18:52:19.342703" elapsed="0.054001"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Treinamento Robot">Treinamento Robot</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="Ex03">Treinamento Robot.Ex03</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
